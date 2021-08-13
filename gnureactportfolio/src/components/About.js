@@ -17,6 +17,13 @@ function about() {
       >
         Hello, my name is Gunnar Ulatowski.
       </h1>
+      <img src="./pictureofme.jpg" alt="pic of me"  style={{
+           width: "150px",
+           height: "auto",
+           border: "4px solid black",
+           borderRadius: "10px",
+           marginLeft: "1525px",
+          }}></img>
       <div>
         <div style={{color: "pink",
           fontSize: "25px",
@@ -24,22 +31,29 @@ function about() {
           textAlign: "center",}}></div>
         <div className="card-body">
           <blockquote className="blockquote mb-0">
-            <p style={{color: "greenyellow",
+            <h1 style={{color: "hotpink",
           padding: "10px",
           fontFamily: "arial",
           fontSize: "90px",
           textShadow: "1px 1px 2px black",
-    }}>
-              I am a MERN Stack Developer.
-            </p>
-            <p style={{color: "greenyellow",
-          paddingTop: "10px",
+          textAlign: "center",
+    }}><i>I am a MERN Stack Developer.</i>
+            </h1>
+            <img src="./picofme.jpg" alt="pic of me"  style={{
+            width: "150px",
+          height: "auto",
+          display: "flex",
+          border: "4px solid black",
+          borderRadius: "10px",
+          }}></img>
+            <h1 style={{color: "greenyellow",
           fontFamily: "arial",
           fontSize: "90px",
           textShadow: "1px 1px 2px black",
+          textAlign: "right",
     }}>
               Welcome to my portfolio.
-            </p>
+            </h1>
           </blockquote>
           <img src="./react.svg" alt="React Icon" 
           style={{
