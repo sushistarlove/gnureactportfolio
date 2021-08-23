@@ -1,13 +1,14 @@
 import React from 'react'
 
-function resume() {
+function Resume() {
     return (
         <div style={{textAlign: "center"}}>
-            <iframe src="./resume.pdf" style={{height: "800px",
+            <iframe src="./resume.pdf" title="hello" style={{height: "800px",
         width: "500px",
         paddingTop: "50px",}}/>
+        
         </div>
     )
 }
 
-export default resume
+export default Resume
